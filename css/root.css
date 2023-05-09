@@ -1,0 +1,36 @@
+:root {
+  --color-darkpurple: #24053e;
+  --color-Eucalyptus: #44ffa1;
+  --color-davygrey: #584d62;
+  --color-ghostwhite: #fcf8ff;
+  --color-white: #ffffff;
+}
+
+/*--------- TYPOGRAPHY ----------*/
+.heading-L {
+  font-family: "Fraunces 144", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.heading-M {
+  font-family: "Fraunces 144", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.heading-S {
+  font-family: "Fraunces 144", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.body {
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
