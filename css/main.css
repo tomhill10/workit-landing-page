@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .davygrey-wrapper {
@@ -52,6 +52,7 @@ body {
 
 .banner-container {
   width: 130vw;
+  padding: 0 20vw;
   height: auto;
   display: flex;
   justify-content: flex-start;
@@ -59,7 +60,8 @@ body {
   align-items: center;
   gap: 4vh;
   background-color: var(--color-darkpurple);
-  border-radius: 0 0 80% 80%;
+  border-radius: 0 0 100% 100%;
+  margin-bottom: 100px;
 }
 
 .banner-h1 {
@@ -87,6 +89,8 @@ body {
 .banner-img-container img {
   width: 100%;
   height: auto;
+  top: 100px;
+  position: relative;
 }
 
 /*------------------ BULLET_POINTS -----------------*/
@@ -94,6 +98,7 @@ body {
 .bullet-point-container {
   margin: 20px 0px;
   width: 95%;
+  max-width: 500px;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -127,6 +132,7 @@ body {
 
 .founder-container {
   width: 95%;
+  max-width: 500px;
   height: auto;
   display: flex;
   justify-content: flex-start;
