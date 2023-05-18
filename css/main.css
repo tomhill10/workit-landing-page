@@ -1,30 +1,22 @@
 body {
-  background-color: palevioletred;
+  background-color: var(--color-white);
   width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-
-.purple-ball {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-darkpurple);
-  width: 200%;
-  height: 60vh;
-  top: -1%;
-  border-radius: 0% 0% 100% 100%;
-  z-index: -1;
+  overflow: hidden;
 }
 
 .davygrey-wrapper {
   background-color: var(--color-ghostwhite);
   z-index: -2;
   margin-bottom: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 
 .davygrey-curve {
@@ -46,8 +38,8 @@ body {
   align-items: center;
   padding: 0.5rem 0.3rem;
   background-color: var(--color-darkpurple);
-  width: 95%;
-  margin: 10px 0px;
+  width: 100%;
+  padding: 10px 10px;
 }
 
 .header-container a {
@@ -59,13 +51,15 @@ body {
 /*-------------------- BANNER -----------------------*/
 
 .banner-container {
-  width: 95%;
+  width: 130vw;
   height: auto;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   gap: 4vh;
+  background-color: var(--color-darkpurple);
+  border-radius: 0 0 80% 80%;
 }
 
 .banner-h1 {
@@ -127,4 +121,67 @@ body {
   width: 50px;
   border: 1px solid var(--color-darkpurple);
   color: var(--color-darkpurple);
+}
+
+/* ------------------ FOUNDER ------------------- */
+
+.founder-container {
+  width: 95%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.founder-container img {
+  max-width: 95%;
+  height: auto;
+  position: relative;
+  top: 80px;
+  z-index: -1;
+}
+
+.founder-bio-container {
+  background-color: var(--color-darkpurple);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.founder-bio-h1 {
+  color: var(--color-white);
+}
+
+.founder-bio-p {
+  color: var(--color-white);
+}
+
+.founder-bio-button {
+  padding: 15px 20px;
+  background-color: var(--color-Eucalyptus);
+  text-decoration: none;
+  color: var(--color-darkpurple);
+}
+
+/* --------------------------- FOOTER -------------------- */
+
+footer {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
 }
